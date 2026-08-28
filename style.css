@@ -401,7 +401,7 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
     .espacios-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .plan-row {
         grid-template-columns: 1fr;
